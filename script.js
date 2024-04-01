@@ -43,7 +43,7 @@ function question1(choice) {
     carrotronScore = carrotronScore + 1;
   }
   else {
-    kernelatorScore = kernelatorScore + 2;
+    kernelatorScore = kernelatorScore + 1;
   }
 
   
