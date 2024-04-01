@@ -1,0 +1,107 @@
+body {
+  background-color: #ff00d0;
+  font-family: 'Trebuchet MS';
+  font-weight: 800;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 80px;
+  color: #ffc800;
+}
+
+main {
+  position: relative;
+}
+
+section {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  transform: translateX(-50%);
+  background-color: white;
+  margin: 20px;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-image {
+  width: 400px;
+  height: auto;
+  cursor: inherit;
+}
+
+p {
+  margin: 0px;
+  margin-bottom: 10px;
+  color: red;
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  border-spacing: 16px;
+}
+
+#start-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow; 
+  border-radius: 8px;
+  color: red;
+  font-family: inherit;
+  font-size: 30px;
+  border: 2px solid red;
+}
+
+#start-screen {
+  background-image: radial-gradient(yellow, white);
+  visibility: visible;
+}
+
+#q1-screen {
+  visibility: hidden;
+}
+
+#q2-screen {
+  visibility: hidden;
+}
+
+#q3-screen {
+  visibility: hidden;
+}
+
+#carrotron-screen {
+  visibility: hidden;
+}
+
+#kernelator-screen {
+  visibility: hidden;
+}
+
+#tomatitan-screen {
+  visibility: hidden;
+}
+
+#brocca-screen {
+  visibility: hidden;
+}
+
+#easteregg-screen {
+  visibility: hidden;
+}
